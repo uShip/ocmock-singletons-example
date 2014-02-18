@@ -2,7 +2,7 @@ OCMockSingletonsExample
 ===================================
 
 
-Example source code to go along with a post on uShip's "Shipping Code" blog.  (link forthcoming)
+Example source code to go along with the blog post, "<a href="http://blog.uship.com/shippingcode/unit-testing-a…ns-with-ocmock/">Unit Testing Around Singletons with OCMock</a>" on uShip's "<a href="http://blog.uship.com/shippingcode/">Shipping Code</a>" blog.
 
 This source includes the code discussed in the post, as well as alternate versions using OCMockito instead of OCMock.  
 
