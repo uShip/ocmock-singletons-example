@@ -1,7 +1,6 @@
-uship-blog-samplecode-mhayes-201402
+OCMockSingletonsExample
 ===================================
 
-OCMockSingletonsExample
 
 Example source code to go along with a post on uShip's "Shipping Code" blog.  (link forthcoming)
 
