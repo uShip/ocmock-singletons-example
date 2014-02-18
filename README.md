@@ -1,4 +1,4 @@
-OCMockSingletonsExample
+ocmock-singletons-example
 ===================================
 
 
