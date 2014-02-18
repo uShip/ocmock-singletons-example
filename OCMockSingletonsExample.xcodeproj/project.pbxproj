@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AFC05B810F74C8FA86431B2 /* libPods-OCMockSingletonsExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2A6DD2E48E475AB9405891 /* libPods-OCMockSingletonsExampleTests.a */; };
 		84424BBB18B3D4B2005C51CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84424BBA18B3D4B2005C51CE /* Foundation.framework */; };
 		84424BBD18B3D4B2005C51CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84424BBC18B3D4B2005C51CE /* CoreGraphics.framework */; };
 		84424BBF18B3D4B2005C51CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84424BBE18B3D4B2005C51CE /* UIKit.framework */; };
 		84424BC518B3D4B2005C51CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84424BC318B3D4B2005C51CE /* InfoPlist.strings */; };
 		84424BC718B3D4B2005C51CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424BC618B3D4B2005C51CE /* main.m */; };
-		84424BCB18B3D4B2005C51CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424BCA18B3D4B2005C51CE /* AppDelegate.m */; };
 		84424BCD18B3D4B2005C51CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84424BCC18B3D4B2005C51CE /* Images.xcassets */; };
 		84424BD418B3D4B2005C51CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84424BD318B3D4B2005C51CE /* XCTest.framework */; };
 		84424BD518B3D4B2005C51CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84424BBA18B3D4B2005C51CE /* Foundation.framework */; };
 		84424BD618B3D4B2005C51CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84424BBE18B3D4B2005C51CE /* UIKit.framework */; };
 		84424BDE18B3D4B2005C51CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84424BDC18B3D4B2005C51CE /* InfoPlist.strings */; };
-		84424BE018B3D4B2005C51CE /* OCMockSingletonsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424BDF18B3D4B2005C51CE /* OCMockSingletonsExampleTests.m */; };
+		84424BEB18B3D4CB005C51CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424BEA18B3D4CB005C51CE /* AppDelegate.m */; };
+		84424BED18B3D4D2005C51CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84424BEC18B3D4D2005C51CE /* Main.storyboard */; };
+		84424BF018B3D4E1005C51CE /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424BEF18B3D4E1005C51CE /* SettingsViewController.m */; };
+		84424BF218B3D4F8005C51CE /* SettingsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424BF118B3D4F8005C51CE /* SettingsViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +43,20 @@
 		84424BC418B3D4B2005C51CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84424BC618B3D4B2005C51CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84424BC818B3D4B2005C51CE /* OCMockSingletonsExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMockSingletonsExample-Prefix.pch"; sourceTree = "<group>"; };
-		84424BC918B3D4B2005C51CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84424BCA18B3D4B2005C51CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84424BCC18B3D4B2005C51CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84424BD218B3D4B2005C51CE /* OCMockSingletonsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMockSingletonsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84424BD318B3D4B2005C51CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84424BDB18B3D4B2005C51CE /* OCMockSingletonsExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockSingletonsExampleTests-Info.plist"; sourceTree = "<group>"; };
 		84424BDD18B3D4B2005C51CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84424BDF18B3D4B2005C51CE /* OCMockSingletonsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockSingletonsExampleTests.m; sourceTree = "<group>"; };
+		84424BE918B3D4CB005C51CE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84424BEA18B3D4CB005C51CE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84424BEC18B3D4D2005C51CE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84424BEE18B3D4E1005C51CE /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		84424BEF18B3D4E1005C51CE /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		84424BF118B3D4F8005C51CE /* SettingsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewControllerTests.m; sourceTree = "<group>"; };
+		84424BF318B3D504005C51CE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		970D463D207E485EB6F80F7A /* Pods-OCMockSingletonsExampleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCMockSingletonsExampleTests.xcconfig"; path = "Pods/Pods-OCMockSingletonsExampleTests.xcconfig"; sourceTree = "<group>"; };
+		FD2A6DD2E48E475AB9405891 /* libPods-OCMockSingletonsExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCMockSingletonsExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 				84424BD418B3D4B2005C51CE /* XCTest.framework in Frameworks */,
 				84424BD618B3D4B2005C51CE /* UIKit.framework in Frameworks */,
 				84424BD518B3D4B2005C51CE /* Foundation.framework in Frameworks */,
+				0AFC05B810F74C8FA86431B2 /* libPods-OCMockSingletonsExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +87,12 @@
 		84424BAE18B3D4B2005C51CE = {
 			isa = PBXGroup;
 			children = (
+				84424BF318B3D504005C51CE /* Podfile */,
 				84424BC018B3D4B2005C51CE /* OCMockSingletonsExample */,
 				84424BD918B3D4B2005C51CE /* OCMockSingletonsExampleTests */,
 				84424BB918B3D4B2005C51CE /* Frameworks */,
 				84424BB818B3D4B2005C51CE /* Products */,
+				970D463D207E485EB6F80F7A /* Pods-OCMockSingletonsExampleTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +112,7 @@
 				84424BBC18B3D4B2005C51CE /* CoreGraphics.framework */,
 				84424BBE18B3D4B2005C51CE /* UIKit.framework */,
 				84424BD318B3D4B2005C51CE /* XCTest.framework */,
+				FD2A6DD2E48E475AB9405891 /* libPods-OCMockSingletonsExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +120,11 @@
 		84424BC018B3D4B2005C51CE /* OCMockSingletonsExample */ = {
 			isa = PBXGroup;
 			children = (
-				84424BC918B3D4B2005C51CE /* AppDelegate.h */,
-				84424BCA18B3D4B2005C51CE /* AppDelegate.m */,
+				84424BEE18B3D4E1005C51CE /* SettingsViewController.h */,
+				84424BEF18B3D4E1005C51CE /* SettingsViewController.m */,
+				84424BEC18B3D4D2005C51CE /* Main.storyboard */,
+				84424BE918B3D4CB005C51CE /* AppDelegate.h */,
+				84424BEA18B3D4CB005C51CE /* AppDelegate.m */,
 				84424BCC18B3D4B2005C51CE /* Images.xcassets */,
 				84424BC118B3D4B2005C51CE /* Supporting Files */,
 			);
@@ -129,7 +145,7 @@
 		84424BD918B3D4B2005C51CE /* OCMockSingletonsExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				84424BDF18B3D4B2005C51CE /* OCMockSingletonsExampleTests.m */,
+				84424BF118B3D4F8005C51CE /* SettingsViewControllerTests.m */,
 				84424BDA18B3D4B2005C51CE /* Supporting Files */,
 			);
 			path = OCMockSingletonsExampleTests;
@@ -168,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84424BE618B3D4B2005C51CE /* Build configuration list for PBXNativeTarget "OCMockSingletonsExampleTests" */;
 			buildPhases = (
+				0B736CF9B0464E81B34725B4 /* Check Pods Manifest.lock */,
 				84424BCE18B3D4B2005C51CE /* Sources */,
 				84424BCF18B3D4B2005C51CE /* Frameworks */,
 				84424BD018B3D4B2005C51CE /* Resources */,
+				DC276D1C50B04A2C907402D6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84424BED18B3D4D2005C51CE /* Main.storyboard in Resources */,
 				84424BC518B3D4B2005C51CE /* InfoPlist.strings in Resources */,
 				84424BCD18B3D4B2005C51CE /* Images.xcassets in Resources */,
 			);
@@ -234,12 +253,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B736CF9B0464E81B34725B4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC276D1C50B04A2C907402D6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-OCMockSingletonsExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84424BB318B3D4B2005C51CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84424BCB18B3D4B2005C51CE /* AppDelegate.m in Sources */,
+				84424BF018B3D4E1005C51CE /* SettingsViewController.m in Sources */,
+				84424BEB18B3D4CB005C51CE /* AppDelegate.m in Sources */,
 				84424BC718B3D4B2005C51CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84424BE018B3D4B2005C51CE /* OCMockSingletonsExampleTests.m in Sources */,
+				84424BF218B3D4F8005C51CE /* SettingsViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +435,7 @@
 		};
 		84424BE718B3D4B2005C51CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970D463D207E485EB6F80F7A /* Pods-OCMockSingletonsExampleTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCMockSingletonsExample.app/OCMockSingletonsExample";
@@ -405,6 +459,7 @@
 		};
 		84424BE818B3D4B2005C51CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970D463D207E485EB6F80F7A /* Pods-OCMockSingletonsExampleTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCMockSingletonsExample.app/OCMockSingletonsExample";
@@ -441,6 +496,7 @@
 				84424BE518B3D4B2005C51CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84424BE618B3D4B2005C51CE /* Build configuration list for PBXNativeTarget "OCMockSingletonsExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +505,7 @@
 				84424BE818B3D4B2005C51CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

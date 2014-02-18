@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  OCMockSingletonsExample
 //
-//  Created by Matt Hayes on 2/18/14.
-//  Copyright (c) 2014 uShip. All rights reserved.
+//  Created by Matt Hayes on 11/15/13.
+//  Copyright (c) 2013 uShip. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
